@@ -61,6 +61,18 @@ full_league_table <- full_league_table %>%
   rename('Pos.' = rowname)
 
 full_league_table <- full_league_table %>% mutate(finish_time = 'full_time')
+half_time_results <- tibble()
+
+for(team in unique(soccer$HomeTeam)){
+  half_time_results <- rbind(half_time_results, full_season_stats(soccer, team, HTR, HT))
+}
+
+half_time_results <- half_time_results %>%
+  arrange(desc(Points), desc(GD)) %>%
+  rownames_to_column() %>%
+  rename('Pos.' = rowname)
+
+half_time_results <- half_time_results %>% mutate(finish_time = 'half_time')
 
 usethis::use_data(full_league_table, overwrite = TRUE)
-
+usethis::use_data(half_time_results, overwrite = TRUE)
