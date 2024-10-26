@@ -1,19 +1,25 @@
 Package: EPLstats2122
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Title: English Premier League 2021-2022 Season Analysis
+Version: 0.1.0
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
+    person("YourFirstName", "YourLastName", , "your.email@example.com", role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+Description: This package provides tools to analyze and visualize statistics 
+    from the English Premier League 2021-2022 season, including an interactive 
+    Shiny app for exploring team and player performance metrics.
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.1
 Depends: 
-    R (>= 2.10)
+    R (>= 3.5.0)
 LazyData: true
 Suggests: 
     knitr,
     rmarkdown
 VignetteBuilder: knitr
+Imports:
+    shiny,
+    ggplot2,
+    dplyr
+URL: https://github.com/ETC5523-2024/assignment-4-packages-and-shiny-apps-nghiacao2001
