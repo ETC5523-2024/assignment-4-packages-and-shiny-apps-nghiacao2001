@@ -17,7 +17,7 @@ knitr::opts_chunk$set(
 
 ## Overview
 
-This package is ideal for sports analysts, data enthusiasts, and fans interested in in-depth EPL analysis for the 2021-2022 season. There are two clean datasets for full league tabler result and halftime result, also there is a plot indicating which teams gain most benefits if games ended halftime. You can open the shiny app dashboard to explore those datasets.
+This package is ideal for sports analysts, data enthusiasts, and fans interested in in-depth EPL analysis for the 2021-2022 season. There are two clean datasets for full league table result and halftime result, also there is a plot indicating which teams gain most benefits if games ended halftime. You can open the shiny app dashboard to explore those datasets.
 
 ## Shiny app dashboard
 
@@ -25,3 +25,5 @@ This package is ideal for sports analysts, data enthusiasts, and fans interested
 library(EPLstats2122)
 launch_shiny_app()
 ```
+
+

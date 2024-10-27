@@ -19,5 +19,7 @@ VignetteBuilder: knitr
 Imports:
     shiny,
     ggplot2,
-    dplyr
+    dplyr,
+    readr,
+    tibbleS
 URL: https://etc5523-2024.github.io/assignment-4-packages-and-shiny-apps-nghiacao2001/
