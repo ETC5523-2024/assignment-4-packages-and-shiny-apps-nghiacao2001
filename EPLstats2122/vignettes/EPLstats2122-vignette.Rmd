@@ -1,8 +1,8 @@
 ---
-title: "EPLstats2122-vignette"
+title: "EPL datasets and plot"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{EPLstats2122-vignette}
+  %\VignetteIndexEntry{EPL datasets and plot}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
@@ -10,10 +10,18 @@ vignette: >
 ```{r, include = FALSE}
 knitr::opts_chunk$set(
   collapse = TRUE,
-  comment = "#>"
+  comment = "#>",
+  rmarkdown.html_vignette.check_title = FALSE
 )
 ```
 
-```{r setup}
+## Overview
+
+This package is ideal for sports analysts, data enthusiasts, and fans interested in in-depth EPL analysis for the 2021-2022 season. There are two clean datasets for full league tabler result and halftime result, also there is a plot indicating which teams gain most benefits if games ended halftime. You can open the shiny app dashboard to explore those datasets.
+
+## Shiny app dashboard
+
+```{r, eval = FALSE}
 library(EPLstats2122)
+launch_shiny_app()
 ```
