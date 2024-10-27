@@ -76,3 +76,4 @@ half_time_results <- half_time_results %>% mutate(finish_time = 'half_time')
 
 usethis::use_data(full_league_table, overwrite = TRUE)
 usethis::use_data(half_time_results, overwrite = TRUE)
+
