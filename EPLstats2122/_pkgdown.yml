@@ -1,8 +1,3 @@
-url: ~
+url: file:///C:/Users/huung/assignment-4-packages-and-shiny-apps-nghiacao2001/EPLstats2122/docs/index.html
 template:
   bootstrap: 5
-
-home:
-  title: "EPLstats2122"
-  description: |
-    The EPLstats2122 package provides tools for analyzing the 2021-2022 English Premier League (EPL) season, focusing on team performance metrics and league position changes. With this package, you can explore full-time and halftime results, view team statistics, and analyze changes in league positions through interactive tables and visualizations. This package is ideal for sports analysts, data enthusiasts, and fans interested in in-depth EPL analysis for the 2021-2022 season.
