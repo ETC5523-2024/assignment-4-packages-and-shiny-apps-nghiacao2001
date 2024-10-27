@@ -1,0 +1,9 @@
+pandoc: '3.2'
+pkgdown: 2.1.1
+pkgdown_sha: ~
+articles:
+  EPLstats2122-vignette: EPLstats2122-vignette.html
+last_built: 2024-10-27T11:11Z
+urls:
+  reference: https://etc5523-2024.github.io/assignment-4-packages-and-shiny-apps-nghiacao2001/reference
+  article: https://etc5523-2024.github.io/assignment-4-packages-and-shiny-apps-nghiacao2001/articles
